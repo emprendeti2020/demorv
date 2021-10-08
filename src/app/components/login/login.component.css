@@ -1,0 +1,23 @@
+button {
+  background-color: #d51d29;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
+span,
+h3,
+h5 {
+  color: #000000;
+}
+
+.colorrv01 {
+  color: #d51d29;
+}
+
+.colorrv02 {
+  color: #000000;
+}
