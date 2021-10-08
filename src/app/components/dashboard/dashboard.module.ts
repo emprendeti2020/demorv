@@ -13,6 +13,11 @@ import { CalendarModule, DateAdapter } from 'angular-calendar';
 import { adapterFactory } from 'angular-calendar/date-adapters/date-fns';
 import { PieChartComponent } from './charts/pie-chart/pie-chart.component';
 import { NumberFormatPipe } from './number-format.pipe';
+import { InicioComponent } from './inicio/inicio.component';
+import { PacientesComponent } from './pacientes/pacientes.component';
+import { PacienteFormularioComponent } from './pacientes/paciente-formulario/paciente-formulario.component';
+import { DiagnosticosComponent } from './pacientes/diagnosticos/diagnosticos.component';
+import { DiagnosticosFormularioComponent } from './pacientes/diagnosticos/diagnosticos-formulario/diagnosticos-formulario.component';
 
 
 @NgModule({
@@ -22,7 +27,12 @@ import { NumberFormatPipe } from './number-format.pipe';
       HeaderComponent,
       CalendarComponent,
       PieChartComponent,
-      NumberFormatPipe
+      NumberFormatPipe,
+      InicioComponent,
+      PacientesComponent,
+      PacienteFormularioComponent,
+      DiagnosticosComponent,
+      DiagnosticosFormularioComponent
     ],
     imports: [
       CommonModule,

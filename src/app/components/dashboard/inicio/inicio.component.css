@@ -1,0 +1,83 @@
+
+  
+  .cards {
+    width: 100%;
+    padding: 28px 28px 0 28px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .card-item {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    height: 90px;
+    width: calc(100% / 4 - 20px);
+    margin-bottom: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title{
+    font-size: 14px;
+  }
+  
+  .card-item .card-left {
+    width: 35%;
+  }
+  
+  .card-item .card-right {
+    width: 65%;
+  }
+
+  
+  .charts {
+    display: grid;
+    padding: 0px 37px;
+    grid-gap: 1.3rem;
+    grid-template-columns: 2.8fr 1.2fr;
+    margin-bottom: 3em;
+  }
+  
+  .bar-chart {
+    background-color: #fff;
+    padding: 15px 14px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chart-title {
+    font-weight: 500;
+  }
+  
+  .pie-chart {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 15px 14px;
+  }
+  
+  .chart-data {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+  }
+  
+  .boxes {
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  .box-1, .box-2, .box-3 {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 15px 14px;
+    height: 240px;
+    text-align: center;
+    margin-bottom: 22px;
+    font-size: 14px;
+  }
+  
+  hr {
+    color: rgb(143, 143, 143);
+  }
+  
